@@ -19,14 +19,21 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
         Button GenerateWorkout = (Button) findViewById(R.id.GenerateWorkout);
         GenerateWorkout.setOnClickListener(this);
 
-        Button RandomWorkout = (Button) findViewById(R.id.RandomWorkout);
-        RandomWorkout.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent i;
-        i = new Intent(this, Gallery.class);
-        startActivity(i);
+        switch (v.getId()){
+            case R.id.gallery_button:
+                Intent i;
+                i = new Intent(this, Gallery.class);
+                startActivity(i);
+                break;
+
+            case R.id.GenerateWorkout:
+                i = new Intent(this, Gallery.class);
+                startActivity(i);
+                break;
+        }
     }
 }
