@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CrossfitWorkoutGenerator.iml" filepath="$PROJECT_DIR$/CrossfitWorkoutGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Crossfit_Workout_Generator.iml" filepath="$PROJECT_DIR$/Crossfit_Workout_Generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Crossfit_Workout_Generator.iml" filepath="$PROJECT_DIR$/Crossfit_Workout_Generator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
