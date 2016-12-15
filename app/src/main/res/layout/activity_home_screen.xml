@@ -13,36 +13,52 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Generate Workout"
-        android:id="@+id/GenerateWorkout"
-        android:layout_marginBottom="42dp"
-        android:layout_above="@+id/gallery_button"
+        android:id="@+id/generate_workout"
+        android:layout_alignTop="@+id/send_feedback"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Custom Workout"
-        android:id="@+id/RandomWorkout"
-        android:layout_alignTop="@+id/GenerateWorkout"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:text="Options"
+        android:id="@+id/options_menu"
+        android:layout_alignTop="@+id/gallery_button"
+        android:layout_alignRight="@+id/send_feedback"
+        android:layout_alignEnd="@+id/send_feedback" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gallery"
         android:id="@+id/gallery_button"
+        android:layout_marginBottom="45dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="43dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp" />
 
     <ImageView
         android:layout_width="400dp"
         android:layout_height="400dp"
         android:id="@+id/imageView"
         android:src="@drawable/homescreenpic"
-        android:layout_above="@+id/GenerateWorkout"
+        android:layout_above="@+id/generate_workout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="43dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:id="@+id/send_feedback"
+        android:layout_marginBottom="78dp"
+        android:layout_above="@+id/options_menu"
+        android:layout_toRightOf="@+id/generate_workout"
+        android:layout_toEndOf="@+id/generate_workout"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp" />
+
 </RelativeLayout>

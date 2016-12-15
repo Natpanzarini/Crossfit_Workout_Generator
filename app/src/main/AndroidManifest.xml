@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Gallery" />
-        <activity android:name=".OptionsMenu"></activity>
+        <activity android:name=".OptionsMenu" />
+        <activity android:name=".SendFeedback"></activity>
     </application>
 
 </manifest>
